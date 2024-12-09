@@ -1,0 +1,256 @@
+ styles.css
+body {
+    font-family: Work-Sans, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .header {
+    background-color: white;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #ddd;
+    font-size: 20px;
+  }
+  
+  .header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo h1 {
+    margin-left: 10px;
+    font-size: 24px;
+  }
+  
+  .search-bar {
+    display: flex;
+  }
+  
+  .search-bar input {
+    padding: 20px;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 50px 0px 0px 50px;
+
+  }
+  
+  .search-bar button {
+    padding: 5px 20px;
+    border: 1px solid #ccc;
+    background-color: #c20822;
+    color: #fff;
+    border-radius: 0px 50px 50px 0px;
+    cursor: pointer;
+  }
+  
+  .nav-bar {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .nav-bar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .nav-bar ul li {
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .nav-bar .festival-sale {
+    background-color: #c20822;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #00bfff;
+    color: #fff;
+  }
+  
+  .banner h1 {
+    font-size: 36px;
+  }
+  
+  .banner button {
+    padding: 10px 20px;
+    background-color: #c20822;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  } 
+
+   .Footer{
+    background-color: black;
+    margin: 0;
+   text-align: center;
+   justify-content: center;
+  }
+
+  .email {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .email input {
+    padding: 20px;
+    width: 400px;
+    outline: 0;
+    border: 0;
+
+    border-right: none;
+    border-radius: 50px 0px 0px 50px;
+  }
+
+  .input text{
+    color: #c20822;
+  }
+
+  .email button{
+    padding: 5px 20px;
+    outline: 0;
+    border: 0;
+
+    border-right: none;
+    border-radius: 0px 50px 50px 0px;
+    background-color: #c20822;
+    color: white
+  }
+
+  h1{
+    color: #fff;
+  }
+
+  h2{
+    color: #ccc;
+  }
+
+  h3{
+    color: black;
+  }
+
+  .logo{
+    color: black;
+  }
+
+  
+  
+  .footer {
+    background-color: #f8f8f8;
+    color: black;
+  }
+  .footer-top{
+   
+      background-color: #000;
+      text-align: center;
+      padding: 15px;
+      align-items: center;
+  
+  }
+  .footer-top p{
+  
+  color: #888888;
+  }
+  .footer-container {
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 100%;
+
+
+  }
+  
+  .footer-section {
+    flex: 1 1 200px;
+    margin: 10px 20px;
+  }
+  
+  .footer-section h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  .contact a{
+    text-decoration: none;
+    list-style: none;
+  }
+  .contact h2.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .age-verification {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #666;
+  }
+  
+  .download-app {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #c8102e;
+    color: white;
+
+    text-decoration: none;
+  }
+  
+  .social-links img{
+    height:auto; 
+    width:15%
+  }
+  .social-links a {
+    margin-right: 10px;
+    text-decoration: none;
+
+    color: #333;
+  }
+  
+  .social-links a:hover {
+    color: #000;
+  }
+  
